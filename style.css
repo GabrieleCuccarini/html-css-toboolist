@@ -33,12 +33,11 @@ header{
 .minicontainer{
     padding-top: 30px;
     display: block;
-    margin: 100px 150px 0;
-    border: 1px solid black;
+    margin: 50px 150px 0;
+    background-color: white;
 }
 
 .maincontainer{
-    padding-top: 30px;
     padding-left: 50px;
     display: block;
     margin: 1px 150px 100px 150px;
@@ -61,3 +60,39 @@ header{
     color: rgb(168, 174, 179);
     border: 1px solid black;
 }
+
+.containerin{
+    padding-top: 35px;
+}
+
+.titoletto{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.blcircle{
+    padding: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color:rgb(69,171,234);
+    color: white;
+}
+
+.viocircle{
+    padding: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgb(170,133,232);
+    color: white;
+}
+
+.greencircle{
+    padding: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgb(100,192,169);
+    color: white;
+}
+
+
+rgb(242,158,51)
