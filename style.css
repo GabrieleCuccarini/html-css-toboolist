@@ -70,29 +70,34 @@ header{
     font-weight: bolder;
 }
 
-.blcircle{
+.circle{
+    margin: 4px 0px;
     padding: 5px;
     display: inline-block;
     border-radius: 20px;
+    color: white;
+}
+
+.blue{
     background-color:rgb(69,171,234);
-    color: white;
 }
 
-.viocircle{
-    padding: 5px;
-    display: inline-block;
-    border-radius: 20px;
+.violet{
     background-color: rgb(170,133,232);
-    color: white;
 }
 
-.greencircle{
-    padding: 5px;
-    display: inline-block;
-    border-radius: 20px;
+.green{
     background-color: rgb(100,192,169);
-    color: white;
 }
 
+.orange{
+    background-color: rgb(242,158,51);
+}
 
-rgb(242,158,51)
+.purple{
+    background-color: rgb(216,99,161);
+}
+
+.yellow{
+    background-color: rgb(176,201,38);
+}
