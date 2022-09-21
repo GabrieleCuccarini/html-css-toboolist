@@ -1,14 +1,14 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(246, 247, 248);
 }
 
-main{
+main {
     padding-top: 2.5rem;
 }
 
@@ -17,45 +17,43 @@ main{
     width: 100%;
 }
 
-header{
+header {
     background-color: white;
     padding: 0.5rem 1rem;
 }
 
 
-.logo{
+.logo {
     width: 80px;
     vertical-align: middle;
 }
 
-.testohead{
+.testohead {
     font-size: 50px;
     font-weight: bolder;
     display: inline-block;
     vertical-align: middle;
 }
 
-.minicontainer{
-    padding-left: 50px;
+.minicontainer {
+    padding: .5rem 0 .5rem 3rem;
     width: 920px;
-    display: block;
     margin: 0 auto;
     background-color: white;
 }
 
-.testo{
-    margin: 4px 0px;
+.testo {
+    padding: .7rem 0px;
 }
 
-.maincontainer{
+.maincontainer {
     width: 920px;
-    padding-left: 50px;
-    display: block;
-    margin: 0.5rem auto 0px;
+    padding-left: 3rem;
+    margin: 0.3rem auto 0px;
     background-color: white;
 }
 
-.blsquare{
+.blsquare {
     padding: 5px;
     margin: 10px 0px;
     display: inline-block;
@@ -64,7 +62,7 @@ header{
     color: white;
 }
 
-.grsquare{
+.grsquare {
     display: inline-block;
     padding: 5px;
     border-radius: 5px;
@@ -72,17 +70,38 @@ header{
     border: 1px solid black;
 }
 
-.containerin{
+.containerin {
     padding-top: 35px;
 }
 
-.titoletto{
+.titoletto {
     font-size: 25px;
     font-weight: bolder;
 }
 
-.circle{
-    margin: 4px 0px;
+.gricon{
+    display: inline-block;
+    line-height: 22px;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 50%;
+    color: rgb(100,192,169);
+}
+
+.redicon{
+    display: inline-block;
+    line-height: 22px;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 50%;
+    color: rgb(235,88,81);
+}
+
+.circle {
     padding: 5px;
     display: inline-block;
     border-radius: 20px;
@@ -90,26 +109,26 @@ header{
     font-size: small;
 }
 
-.blue{
-    background-color:rgb(69,171,234);
+.blue {
+    background-color: rgb(69, 171, 234);
 }
 
-.violet{
-    background-color: rgb(170,133,232);
+.violet {
+    background-color: rgb(170, 133, 232);
 }
 
-.green{
-    background-color: rgb(100,192,169);
+.green {
+    background-color: rgb(100, 192, 169);
 }
 
-.orange{
-    background-color: rgb(242,158,51);
+.orange {
+    background-color: rgb(242, 158, 51);
 }
 
-.purple{
-    background-color: rgb(216,99,161);
+.purple {
+    background-color: rgb(216, 99, 161);
 }
 
-.yellow{
-    background-color: rgb(176,201,38);
+.yellow {
+    background-color: rgb(176, 201, 38);
 }
