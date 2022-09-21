@@ -5,50 +5,61 @@
 }
 
 body{
-    background-color: rgba(212, 221, 221, 0.2);
+    background-color: rgb(246, 247, 248);
+}
+
+main{
+    padding-top: 2.5rem;
+}
+
+.headcontainer {
+    height: 100px;
+    width: 100%;
 }
 
 header{
     background-color: white;
+    padding: 0.5rem 1rem;
 }
 
-.container {
-    height: 150px;
-    width: 100%;
-    vertical-align: middle;
-}
 
 .logo{
-    width: 120px;
+    width: 80px;
     vertical-align: middle;
 }
 
 .testohead{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     display: inline-block;
     vertical-align: middle;
 }
 
 .minicontainer{
-    padding-top: 30px;
+    padding-left: 50px;
+    width: 920px;
     display: block;
-    margin: 50px 150px 0;
+    margin: 0 auto;
     background-color: white;
 }
 
+.testo{
+    margin: 4px 0px;
+}
+
 .maincontainer{
+    width: 920px;
     padding-left: 50px;
     display: block;
-    margin: 1px 150px 100px 150px;
+    margin: 0.5rem auto 0px;
     background-color: white;
 }
 
 .blsquare{
     padding: 5px;
-    margin: 0px 0px 10px 30px;
+    margin: 10px 0px;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: rgb(0, 153, 255);
     color: white;
 }
@@ -76,6 +87,7 @@ header{
     display: inline-block;
     border-radius: 20px;
     color: white;
+    font-size: small;
 }
 
 .blue{
