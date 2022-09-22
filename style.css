@@ -96,7 +96,7 @@ header {
     color: rgb(235,88,81);
 }
 
-.circle {
+.badge {
     padding: 5px;
     display: inline-block;
     border-radius: 20px;
